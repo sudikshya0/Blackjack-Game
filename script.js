@@ -55,6 +55,7 @@ function renderGame(){
     else if(sum === 21) {
         message = "You got black jack" 
         hasBlackJack = true
+        startEl.textContent = "NEW GAME"
     }
     else{
         message = "You have lost"
