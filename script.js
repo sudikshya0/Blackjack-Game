@@ -9,7 +9,6 @@ let sumEl = document.querySelector("#sum-el");
 let cardEl = document.querySelector("#cards-el");
 let startEl = document.querySelector("#start-btn");
 
-
 // let player = {
 //     name: "John",
 //     chips: 0
@@ -29,7 +28,6 @@ function getRandomCard(){
         return random;
     }
 }
-
 
 function startGame(){
     startEl.textContent = "START GAME"
@@ -61,7 +59,6 @@ function renderGame(){
         message = "You have lost"
         isAlive = false;
         startEl.textContent = "NEW GAME"
-
     }
     messageEl.innerText = message;
 }

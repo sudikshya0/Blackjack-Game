@@ -8,11 +8,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 h1 {
     color: goldenrod;
+}
+
+.container {
+    background-color: olive;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #message-el{
@@ -36,14 +47,3 @@ button {
     cursor: pointer;
 }
 
-.container {
-    background-color: olive;
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
